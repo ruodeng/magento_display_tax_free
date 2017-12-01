@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Ruo_TotalTaxFree>
+      <version>0.1.0</version>
+    </Ruo_TotalTaxFree>
+  </modules>
+  <global>
+    <helpers>
+      <totaltaxfree>
+        <class>Ruo_TotalTaxFree_Helper</class>
+      </totaltaxfree>
+    </helpers>
+    <models>
+      <totaltaxfree>
+        <class>Ruo_TotalTaxFree_Model</class>
+      </totaltaxfree>
+    </models>
+    <sales>
+      <quote>
+        <totals>
+          <ruo_totaltaxfree>
+            <class>totaltaxfree/totaltaxfree</class>
+          </ruo_totaltaxfree>
+        </totals>
+      </quote>
+    </sales>
+  </global>
+</config> 
